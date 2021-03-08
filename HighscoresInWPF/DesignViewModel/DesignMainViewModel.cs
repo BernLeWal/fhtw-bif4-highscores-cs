@@ -1,6 +1,6 @@
 ﻿using HighscoresInWPF.Model;
 
-namespace HighscoresInWPF
+namespace HighscoresInWPF.DesignViewModel
 {
     public class DesignMainViewModel : MainViewModel
     {

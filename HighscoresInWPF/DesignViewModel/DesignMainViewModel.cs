@@ -9,6 +9,11 @@ namespace HighscoresInWPF.DesignViewModel
             this.CurrentUsername = "TestUsername";
             this.CurrentPoints = "TestPoints";
 
+            LoadData();
+        }
+
+        private void LoadData()
+        {
             this.Data.Clear();
             this.Data.Add(new HighscoreEntry("First", "a million"));
             this.Data.Add(new HighscoreEntry("Second", "a billion"));

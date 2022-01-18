@@ -44,6 +44,11 @@ namespace HighscoresInWPF
             IsUsernameFocused = true;
 
             // real data to add (not design data)
+            LoadHighscores();
+        }
+
+        private void LoadHighscores()
+        {
             Data.Add(new HighscoreEntry("Daniel", "Infinite"));
             Data.Add(new HighscoreEntry("not Daniel", "few"));
         }

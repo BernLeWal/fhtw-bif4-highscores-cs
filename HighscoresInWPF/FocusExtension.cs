@@ -2,6 +2,10 @@
 
 namespace HighscoresInWPF
 {
+    // Set Focus with the MVVM-approach
+    // (where we don't want to introduce a dependency to the WPF-framework)
+    // with Attached Properties, see here:
+    // https://rotadev.com/set-focus-on-textbox-in-wpf-from-view-model-dev/
     public static class FocusExtension
     {
         public static bool GetIsFocused(DependencyObject obj)

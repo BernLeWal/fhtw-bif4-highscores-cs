@@ -11,7 +11,7 @@
     <Window.DataContext>
         <local:MainViewModel />
     </Window.DataContext>
-    <Grid ShowGridLines="True">
+    <Grid ShowGridLines="False">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="1*"/>
